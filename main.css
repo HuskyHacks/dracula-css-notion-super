@@ -2,11 +2,22 @@ html,
 body {
 	background-image: none !important;
 	background-color: rgba(40, 42, 54, 1) !important;
+	text-shadow: none!important;
+	
 }
 
-body * {
-	color: rgba(248, 248, 242, 1);
-	text-shadow: none !important;
+pre, .notion-code code {
+    color: rgba(248, 248, 242 ,1);
+    background: none;
+    font-size: .9em;
+    line-height: 1.4;
+    overflow-wrap: normal;
+    text-shadow: none !important;
+}
+
+.static-tweet-body {
+    background-color:rgba(52, 55, 70, 1);
+    color: rgba(248, 248, 242, 1);
 }
 
 a,
@@ -36,6 +47,15 @@ a:visited * {
 	color: rgba(98, 114, 164, 1) !important;
 }
 
+h2.notion-heading {
+  color: rgba(139, 233, 253, 1) !important;
+}
+
+h3.notion-heading {
+  color: rgba(139, 233, 253, 1) !important;
+}
+
+
 h1,
 h2,
 h3,
@@ -54,6 +74,20 @@ strong,
 table {
 	background-color: rgba(40, 42, 54, 1) !important;
 }
+
+	
+.super-navbar__cta {
+    background: rgba(52, 55, 70, 1) !important;
+    color: rgba(255, 85, 85, 1) !important;
+    position: relative;
+    opacity: 1;
+    padding: 8px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: opacity 1s ease-in-out;
+}
+
 
 input,
 select,
@@ -143,10 +177,11 @@ pre, .notion-code code {
 .notion-semantic-string .code {
     border-radius: 5px;
     background-color: var(--color-ui-hover-bg);
-    color: rgba(255, 121, 198, 1);
+    color: rgba(80, 250, 123, 1);
     font-size: .9em;
     padding: 0.2em 0.4em;
     word-break: break-word;
+    text-shadow: none !important;
 }
 
 a.highlight,
@@ -160,5 +195,9 @@ a.active *,
 	color: rgba(139, 233, 253, 1) !important;
 }
 
-
+body {
+	color: rgba(248, 248, 242, 1);
+	text-shadow: none !important;
 }
+
+/*-----------------------------*/
