@@ -3,4 +3,4 @@ The [Dracula](https://draculatheme.com) color theme for Notion/Super.so sites. I
 
 Featured on [notes.huskyhacks.dev](https://notes.huskyhacks.dev)
 
-![image](https://user-images.githubusercontent.com/57866415/162637551-4d80a5df-f786-43c3-83b5-c34c99b153b9.png)
+![image](https://user-images.githubusercontent.com/57866415/163807383-ed0208f3-3167-4fd7-9333-0bf15b3cadae.png)
