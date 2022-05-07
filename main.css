@@ -165,8 +165,22 @@ pre, .notion-code code {
   color: rgba(241, 250, 140,1);
 }
 
+.token.property {
+  color: rgba(80, 250,123 ,1);
+}
+
+.token.atrule {
+   color: rgba(139, 233, 253,1);
+}
+
 .token.url {
   color: rgba(255, 184, 108,1);
+  background: none !important;
+}
+
+
+.token.constant {
+  color: rgba(189, 147,249, 1);
   background: none !important;
 }
 
@@ -193,6 +207,10 @@ a.active *,
 [href="#"] {
 	font-weight: bold !important;
 	color: rgba(139, 233, 253, 1) !important;
+}
+
+.super-footer {
+  background: rgba(52, 55, 70, 1) !important;
 }
 
 body {
