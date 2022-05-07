@@ -211,6 +211,7 @@ a.active *,
 
 .super-footer {
   background: rgba(52, 55, 70, 1) !important;
+  box-shadow: 2px 2px 15px  rgba(0, 0, 0, 1);
 }
 
 body {
