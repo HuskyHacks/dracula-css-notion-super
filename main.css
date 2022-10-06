@@ -6,13 +6,114 @@ body {
 	
 }
 
+.notion-semantic-string .code {
+    color: rgba(139, 233, 253	,1) !important;
+}
+
 pre, .notion-code code {
-    color: rgba(248, 248, 242 ,1);
+    color: rgba(248, 248, 242 ,1) !important;
+    background: none !important;
+    font-size: .9em;
+    line-height: 1.4;
+    overflow-wrap: normal;
+}
+
+.token.comment {
+  color: rgba(98, 114, 164,1) !important;
+}
+
+.token.boolean {
+  color: rgba(255, 85, 85, 1)!important;
+}
+
+.token.keyword {
+  color: rgba(255, 121, 198,1)!important;
+}
+
+
+.token.function {
+  color: rgba(80, 250, 123,1)!important;
+}
+
+.token.punctuation {
+  color: rgba(248, 248, 242, 1)!important;
+}
+
+.token.operator {
+  color: rgba(255, 121, 198	,1)!important;
+  background-color: rgba(52, 55, 70, 1)!important;
+}
+
+.token.number {
+  color: rgba(255, 184, 108, 1)!important;
+}
+
+.token.builtin {
+  color: rgba(139, 233, 253,1)!important;
+}
+
+.token.string {
+  color: rgba(241, 250, 140,1)!important;
+}
+
+.token.property {
+  color: rgba(80, 250,123 ,1)!important;
+}
+
+.token.atrule {
+   color: rgba(139, 233, 253,1)!important;
+}
+
+.token.url {
+  color: rgba(255, 184, 108,1)!important;
+  background: none !important;
+}
+
+
+.token.constant {
+  color: rgba(189, 147,249, 1)!important;
+  background: none !important;
+}
+
+.token.content {
+  color: rgba(248, 248, 242,1)!important;
+}
+
+.notion-semantic-string .code {
+    border-radius: 5px;
+    background-color: var(--color-ui-hover-bg);
+    color: rgba(139, 233, 253, 1);
+    font-size: .9em;
+    padding: 0.2em 0.4em;
+    word-break: break-word;
+    text-shadow: none !important;
+}
+
+.notion-image.normal {
+    box-shadow: 2px 2px 15px  rgba(0, 0, 0, 1);
+}
+
+.notion-image.page-width {
+  box-shadow: 2px 2px 15px  rgba(0, 0, 0, 1);
+}
+
+.notion-code code {
+    color: rgb(248, 248, 242, 1) !important;
+}
+
+pre, .notion-code code {
+    color: rgba(139, 233, 253, 1 !important);
     background: none;
     font-size: .9em;
     line-height: 1.4;
     overflow-wrap: normal;
     text-shadow: none !important;
+}
+
+
+.super-navbar {
+  box-shadow: 2px 2px 15px  rgba(0, 0, 0, 1);
+  
 }
 
 .static-tweet-body {
@@ -121,82 +222,10 @@ li {
 pre,
 dl {
 	background-color: rgba(52, 55, 70, 1) !important;
-}
-
-pre, .notion-code code {
-    color: rgba(248, 248, 242 ,1);
-    background: none;
-    font-size: .9em;
-    line-height: 1.4;
-    overflow-wrap: normal;
-}
-
-.token.comment {
-  color: rgba(98, 114, 164,1);
-}
-
-.token.keyword {
-  color: rgba(255, 121, 198,1);
+	box-shadow: 3px 7px 20px  rgba(0, 0, 0, 1);
 }
 
 
-.token.function {
-  color: rgba(80, 250, 123,1);
-}
-
-.token.punctuation {
-  color: rgba(248, 248, 242, 1);
-}
-
-.token.operator {
-  color: rgba(255, 121, 198	,1);
-  background-color: rgba(52, 55, 70, 1);
-}
-
-.token.number {
-  color: rgba(255, 184, 108, 1);
-}
-
-.token.builtin {
-  color: rgba(139, 233, 253,1);
-}
-
-.token.string {
-  color: rgba(241, 250, 140,1);
-}
-
-.token.property {
-  color: rgba(80, 250,123 ,1);
-}
-
-.token.atrule {
-   color: rgba(139, 233, 253,1);
-}
-
-.token.url {
-  color: rgba(255, 184, 108,1);
-  background: none !important;
-}
-
-
-.token.constant {
-  color: rgba(189, 147,249, 1);
-  background: none !important;
-}
-
-.token.content {
-  color: rgba(248, 248, 242,1);
-}
-
-.notion-semantic-string .code {
-    border-radius: 5px;
-    background-color: var(--color-ui-hover-bg);
-    color: rgba(80, 250, 123, 1);
-    font-size: .9em;
-    padding: 0.2em 0.4em;
-    word-break: break-word;
-    text-shadow: none !important;
-}
 
 a.highlight,
 a.highlight *,
